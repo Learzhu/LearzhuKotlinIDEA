@@ -1,7 +1,5 @@
 package com.learzhu.learzhukotlin.class_object_interface
 
-import com.learzhu.learzhukotlin.base.Person
-
 /**
  * Object.java是液总汇的类。
  *
@@ -13,12 +11,12 @@ import com.learzhu.learzhukotlin.base.Person
  * @used {@link }
  */
 object Payroll {
-    val allEmployees = arrayListOf<Person>()
-    fun calculateSalary() {
-        for (person in allEmployees) {
-
-        }
-    }
+//    val allEmployees = arrayListOf<Person>()
+//    fun calculateSalary() {
+//        for (person in allEmployees) {
+//
+//        }
+//    }
 }
 
 //对象声明可以继承自类和接口
@@ -32,8 +30,8 @@ object Payroll {
 //}
 
 fun main(args: Array<String>) {
-    Payroll.allEmployees.add(Person("Alice"))
-    Payroll.calculateSalary()
+//    Payroll.allEmployees.add(Person("Alice"))
+//    Payroll.calculateSalary()
 }
 
 //data object
