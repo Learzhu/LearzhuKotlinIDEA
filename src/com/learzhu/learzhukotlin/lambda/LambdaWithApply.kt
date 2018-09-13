@@ -1,8 +1,5 @@
 package com.learzhu.learzhukotlin.lambda
 
-import android.content.Context
-import android.widget.TextView
-
 /**
  * LambdaWithApply.java是液总汇的类。
  *
@@ -55,9 +52,9 @@ fun apphabet2(): String = StringBuilder().apply {
     append("\nNow I know the alphabet!")
 }.toString()
 
-fun createViewWithCustomAttributes(context: Context) =
-        TextView(context).apply {
-            text = "Sample Text"
-            textSize = 20.0f
-            setPadding(10, 0, 0, 0)
-        }
+//fun createViewWithCustomAttributes(context: Context) =
+//        TextView(context).apply {
+//            text = "Sample Text"
+//            textSize = 20.0f
+//            setPadding(10, 0, 0, 0)
+//        }

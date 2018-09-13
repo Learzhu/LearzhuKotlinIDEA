@@ -1,7 +1,6 @@
 package com.learzhu.learzhukotlin.operator_appoint
 
-import android.annotation.TargetApi
-import android.os.Build
+import java.awt.Point
 import java.time.LocalDate
 
 /**
@@ -42,7 +41,7 @@ operator fun Rectangle.contains(p: Point): Boolean {
             p.y in upperLeft.y until lowerRight.y
 }
 
-@TargetApi(Build.VERSION_CODES.O)
+//@TargetApi(Build.VERSION_CODES.O)
 fun main(args: Array<String>) {
     val now = LocalDate.now()
     //等价于rangeTo

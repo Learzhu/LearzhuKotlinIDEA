@@ -1,5 +1,7 @@
 package com.learzhu.learzhukotlin.base
 
+import kotlin.math.max
+
 /**
  * Base.java是液总汇的类。
  *

@@ -4,7 +4,7 @@ package strings
 
 //import android.view.View
 //import android.widget.Button
-import com.learzhu.learzhukotlin.class_object_interface.Button
+import com.learzhu.learzhukotlin.class_object_interface.Button2
 import com.learzhu.learzhukotlin.class_object_interface.View
 
 /**
@@ -45,7 +45,7 @@ fun Collection<String>.join(
 ) = joinToString(separator, prefix, postfix)
 
 fun View.showOff() = println("I'm a view!")
-fun Button.showOff() = println("I'm a button!")
+fun Button2.showOff() = println("I'm a button!")
 
 fun Int.a(i: Int): Int {
     return this + i
